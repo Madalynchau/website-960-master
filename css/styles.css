@@ -1,0 +1,55 @@
+
+body {
+	background: #099 ;
+}
+
+h1 {
+	
+	text-align:center;
+	color: white;
+	font-size: 36px;  
+	text-transform: capitalize;
+	background-color: #999 ;
+}
+
+p {
+	color: white;
+	font-size:14px;
+	text-indent: 40px;
+	border-color: #009;
+	padding: 10px 10px;
+	
+
+}
+
+img {
+	width: auto;
+	height: 350px;
+	border: 1 px solid black;
+	display:block; 
+	margin: 0 auto;
+	padding: 10px 10px;
+	background: #009;
+}
+
+
+/* Main Navigation */
+li {
+  display: inline;
+  list-style: none;
+  margin: 20px 10px;
+  padding: 20px 10px;
+}
+
+a {
+  color: white;
+  font: 24px sans-serif bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;  
+}
+
+li:hover {
+  background: orange;
+  color: #fff; 
+} 
